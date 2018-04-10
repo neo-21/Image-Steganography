@@ -12,7 +12,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 
 
-public class RetreiveData {
+public class RetrieveData {
 
     private BufferedImage image=null;
 	private int pixels[][];
@@ -20,7 +20,7 @@ public class RetreiveData {
 	private int Width,Height;
 	private String myString="";
 	
-	public RetreiveData()
+	public RetrieveData()
 	{
 		try
 		{
@@ -145,7 +145,7 @@ public class RetreiveData {
 	
 public static void main(String[] args)
 {
-new RetreiveData();
+new RetrieveData();
 }
 
 }
